@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# Data files (Downloaded via kagglehub - will be in a hidden folder usually)
+# Explicitly ignore common Kaggle download patterns if needed
+.kaggle/
+*/US_Accidents_*.csv # Ignore variations of the large CSV
+
+# Output files (Optional - uncomment if you don't want to commit aggregated data)
+# output/
+
+# Environment directories
+venv/
+env/
+.env/
+.venv/
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
