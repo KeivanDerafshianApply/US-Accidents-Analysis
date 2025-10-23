@@ -48,6 +48,7 @@ An interactive dashboard exploring the findings from this analysis has been crea
 
 **[View the Interactive Dashboard on Tableau Public](https://public.tableau.com/views/US-Accidents-Analysis/USAccidentsOverview?:language=en-US&:sid=&:redirect=auth&publish=yes&showOnboarding=true&:display_count=n&:origin=viz_share_link)**
 
+The Tableau Packaged Workbook (`.twbx`) file containing all dashboards and sheets is also available directly in this repository for download.
 *(Note: The Tableau dashboard provides visualizations based on the aggregated data exported from the Python script.)*
 
 ## Key Findings (Example - Fill with your own!)
