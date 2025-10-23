@@ -42,19 +42,19 @@ The dataset `US Accidents (2016 - 2023)` is sourced from [Kaggle](https://www.ka
 4.  **Data Export (Python - Pandas):**
     * Saved the aggregated DataFrame to `output/us_accidents_agg_tableau.csv`.
 
-5.  **Visualization (Tableau - Suggested):**
-    * Connected the `output/us_accidents_agg_tableau.csv` to Tableau.
-    * **Dashboards:**
-        * **Overview:** KPIs (Total Accidents in sample), Map of accidents by State/County, Trend lines (Monthly/Yearly).
-        * **Time Analysis:** Heatmap of accidents by Day of Week vs. Hour, Monthly accident trends.
-        * **Weather Impact:** Map colored by average severity under different weather conditions (using filters), Bar charts showing accident counts by weather category and severity.
-        * **Geospatial Hotspots:** Density map showing accident concentration (using State/County and counts).
+## Tableau Visualization 📈
+
+An interactive dashboard exploring the findings from this analysis has been created and published to Tableau Public.
+
+**[View the Interactive Dashboard on Tableau Public](https://public.tableau.com/views/US-Accidents-Analysis/USAccidentsOverview?:language=en-US&:sid=&:redirect=auth&publish=yes&showOnboarding=true&:display_count=n&:origin=viz_share_link)**
+
+*(Note: The Tableau dashboard provides visualizations based on the aggregated data exported from the Python script.)*
 
 ## Key Findings (Example - Fill with your own!)
 
 * Accidents peak during afternoon commute hours (around 3-6 PM) on weekdays.
 * California, Florida, and Texas show the highest accident counts in the sampled data.
-* While 'Clear' weather has the most accidents overall (likely due to being the most common condition), the *rate* or *severity* might be higher during adverse conditions like rain or fog (further investigation in Tableau needed).
+* While 'Clear' weather has the most accidents overall (likely due to being the most common condition), the *rate* or *severity* might be higher during adverse conditions like rain or fog (explored in the Tableau dashboard).
 * (Add more specific findings based on your EDA and Tableau dashboards).
 
 ## How to Run
@@ -70,10 +70,10 @@ The dataset `US Accidents (2016 - 2023)` is sourced from [Kaggle](https://www.ka
     pip install -r requirements.txt
     ```
 4.  **Run the Jupyter Notebook:** `us_accidents_analysis.ipynb`. This downloads the data, samples it, performs analysis, and generates `output/us_accidents_agg_tableau.csv`. **Note:** Downloading and initial loading might take some time depending on your connection and machine specs.
-5.  **Visualize in Tableau:** Connect to the `output/us_accidents_agg_tableau.csv` in Tableau Desktop.
+5.  **Visualize in Tableau:** Connect to the `output/us_accidents_agg_tableau.csv` in Tableau Desktop, or view the pre-published dashboard linked above.
 
 ## Tools Used
 
 * **Python:** Pandas, NumPy, Matplotlib, Seaborn, KaggleHub
-* **Tableau Desktop**
+* **Tableau Public / Tableau Desktop**
 * **Jupyter Notebook**
